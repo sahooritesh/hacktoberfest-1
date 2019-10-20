@@ -27,7 +27,7 @@ def format_contributor(contrib):
     return contrib
 
 
-# Remove trailing whitespaces
+
 # Make the file ready for sorting
 with open('CONTRIBUTORS.md', 'r+') as file:
     new_file_data = []
